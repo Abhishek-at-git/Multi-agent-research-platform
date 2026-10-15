@@ -1,0 +1,32 @@
+# Environment and Secrets
+.env
+*.env.local
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Databases and Logs
+outputs/research_assistant.db
+outputs/research.log
+*.log
+*.sqlite
+*.db
+
+# Streamlit temporary data
+.streamlit/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
